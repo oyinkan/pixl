@@ -7,13 +7,13 @@ export default function Footer() {
   return(
     <footer className="md:flex justify-between items-center pb-4">
       <div className="flex">
-        <a href="#" className="block pr-4">
+        <a href="https://facebook.com" className="block pr-4">
           <img src={facebook} alt="facebook icon" />
         </a>
-        <a href="#" className="block pr-4">
+        <a href="https://instagram.com" className="block pr-4">
           <img src={instagram} alt="instagram icon" />
         </a>
-        <a href="#" className="block pr-4">
+        <a href="https://twitter.com" className="block pr-4">
           <img src={twitter} alt="twitter icon" />
         </a>
       </div>
