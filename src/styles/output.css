@@ -355,7 +355,7 @@ ul {
  */
 
 html {
-  font-family: Inter, "IBM Plex Sans"; /* 1 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -22499,7 +22499,15 @@ video {
 }
 
 .font-sans{
-  font-family: Inter, "IBM Plex Sans";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-inter{
+  font-family: inter;
+}
+
+.font-plex{
+  font-family: "IBM Plex Sans";
 }
 
 .font-serif{
@@ -52213,7 +52221,15 @@ video {
   }
 
   .sm\:font-sans{
-    font-family: Inter, "IBM Plex Sans";
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .sm\:font-inter{
+    font-family: inter;
+  }
+
+  .sm\:font-plex{
+    font-family: "IBM Plex Sans";
   }
 
   .sm\:font-serif{
@@ -81915,7 +81931,15 @@ video {
   }
 
   .md\:font-sans{
-    font-family: Inter, "IBM Plex Sans";
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .md\:font-inter{
+    font-family: inter;
+  }
+
+  .md\:font-plex{
+    font-family: "IBM Plex Sans";
   }
 
   .md\:font-serif{
@@ -111617,7 +111641,15 @@ video {
   }
 
   .lg\:font-sans{
-    font-family: Inter, "IBM Plex Sans";
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .lg\:font-inter{
+    font-family: inter;
+  }
+
+  .lg\:font-plex{
+    font-family: "IBM Plex Sans";
   }
 
   .lg\:font-serif{
@@ -141319,7 +141351,15 @@ video {
   }
 
   .xl\:font-sans{
-    font-family: Inter, "IBM Plex Sans";
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .xl\:font-inter{
+    font-family: inter;
+  }
+
+  .xl\:font-plex{
+    font-family: "IBM Plex Sans";
   }
 
   .xl\:font-serif{
@@ -171021,7 +171061,15 @@ video {
   }
 
   .\32xl\:font-sans{
-    font-family: Inter, "IBM Plex Sans";
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .\32xl\:font-inter{
+    font-family: inter;
+  }
+
+  .\32xl\:font-plex{
+    font-family: "IBM Plex Sans";
   }
 
   .\32xl\:font-serif{

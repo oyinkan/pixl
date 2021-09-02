@@ -48,7 +48,7 @@ export default function TimelineTab() {
             key={timeline}
             className={({ selected }) =>
               classNames(
-                'w-full py-2.5 px-1 leading-5 rounded-full mr-3 sm:mr-0',
+                'font-plex w-full py-2.5 px-1 leading-5 rounded-full mr-3 sm:mr-0',
                 'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-primary ring-white ring-opacity-60',
                 selected
                   ? 'bg-white shadow font-semibold text-tertiary'

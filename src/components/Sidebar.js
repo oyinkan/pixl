@@ -47,7 +47,7 @@ export default function Sidebar() {
           </div>
           <nav>
             {data.map(datum => (
-              <a href="" key={datum.id} className="font-sans IBM Plex Sans flex flex-col items-center mb-8">
+              <a href="" key={datum.id} className="font-plex flex flex-col items-center mb-8">
                 <img src={datum.src} alt={`${datum.name} icon`} />
                 <span className="text-xs font-semibold text-secondary">{datum.name}</span>
               </a>
