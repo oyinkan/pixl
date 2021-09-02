@@ -355,7 +355,7 @@ ul {
  */
 
 html {
-  font-family: inter, "IBM Plex Sans"; /* 1 */
+  font-family: Inter, "IBM Plex Sans"; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -22499,7 +22499,7 @@ video {
 }
 
 .font-sans{
-  font-family: inter, "IBM Plex Sans";
+  font-family: Inter, "IBM Plex Sans";
 }
 
 .font-serif{
@@ -52213,7 +52213,7 @@ video {
   }
 
   .sm\:font-sans{
-    font-family: inter, "IBM Plex Sans";
+    font-family: Inter, "IBM Plex Sans";
   }
 
   .sm\:font-serif{
@@ -81915,7 +81915,7 @@ video {
   }
 
   .md\:font-sans{
-    font-family: inter, "IBM Plex Sans";
+    font-family: Inter, "IBM Plex Sans";
   }
 
   .md\:font-serif{
@@ -111617,7 +111617,7 @@ video {
   }
 
   .lg\:font-sans{
-    font-family: inter, "IBM Plex Sans";
+    font-family: Inter, "IBM Plex Sans";
   }
 
   .lg\:font-serif{
@@ -141319,7 +141319,7 @@ video {
   }
 
   .xl\:font-sans{
-    font-family: inter, "IBM Plex Sans";
+    font-family: Inter, "IBM Plex Sans";
   }
 
   .xl\:font-serif{
@@ -171021,7 +171021,7 @@ video {
   }
 
   .\32xl\:font-sans{
-    font-family: inter, "IBM Plex Sans";
+    font-family: Inter, "IBM Plex Sans";
   }
 
   .\32xl\:font-serif{

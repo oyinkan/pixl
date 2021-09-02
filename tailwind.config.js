@@ -244,7 +244,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'inter',
+        'Inter',
         '"IBM Plex Sans"'
       ],
       serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
