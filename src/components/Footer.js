@@ -5,7 +5,7 @@ import twitter from "./../images/twitter.svg";
 
 export default function Footer() {
   return(
-    <footer className="flex justify-between items-center pb-4">
+    <footer className="md:flex justify-between items-center pb-4">
       <div className="flex">
         <a href="#" className="block pr-4">
           <img src={facebook} alt="facebook icon" />

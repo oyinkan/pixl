@@ -42,13 +42,13 @@ export default function TimelineTab() {
 
   return(
     <Tab.Group>
-      <Tab.List className="flex border border-solid border-primary rounded-full mt-10 p-1">
+      <Tab.List className="flex border border-solid border-primary rounded-full mt-10 p-1 overflow-x-auto sm:overflow-x-hidden">
         {Object.keys(timelines).map((timeline) => (
           <Tab
             key={timeline}
             className={({ selected }) =>
               classNames(
-                'w-full py-2.5 leading-5 rounded-full',
+                'w-full py-2.5 px-1 leading-5 rounded-full mr-3 sm:mr-0',
                 'focus:outline-none focus:ring-2 ring-offset-2 ring-offset-primary ring-white ring-opacity-60',
                 selected
                   ? 'bg-white shadow font-semibold text-tertiary'
@@ -76,8 +76,8 @@ export default function TimelineTab() {
                 <p className="text-base text-black font-medium">
                   {datum.title}
                 </p>
-                <div className="flex justify-between lg:items-baseline mt-2">
-                  <div className="flex items-baseline">
+                <div className="flex justify-between items-end mt-2">
+                  <div className="flex items-end">
                     <h6 className="text-2xl text-tertiary font-semibold">{datum.amount}</h6>
                     <p className="text-sm text-secondary font-medium ml-2">From {datum.previousAmount}</p>
                   </div>
